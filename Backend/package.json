@@ -1,0 +1,22 @@
+{
+  "name": "beepapp",
+  "version": "1.0.0",
+  "description": "a basic scroing application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
